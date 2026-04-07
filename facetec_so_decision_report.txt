@@ -1,0 +1,538 @@
+File: libkagsf6n35nmdmj4aav5sk6moq3.so
+Total unique ASCII strings: 21500
+
+## ANTI_REPLAY_LOOP_AUDIT
+setLogSessionId failed.
+sessionToken
+sessionIntervalInMilliseconds
+The Session was performed successfully and a FaceScan was generated.
+Session cancelled because a Context Switch occurred during session.
+FACETEC_SESSION_ACTIVITY_ON_WINDOW_FOCUS_CHANGED
+PreSession
+FT_EVENT_AUTH_SESSION_FAIL
+INTER_FACETEC_SESSION_LOOP_DETECTION_LEVEL
+, sessionBounds=
+refreshPreviewCaptureSession
+Session Callback
+No capture session available for current capture session.
+org.infobip.mobile.messaging.infobip.ACTIVE_SESSION_END_TIME_MILLIS
+, sessionTokenCheckSucceeded=
+Session cancelled because the device is incompatible with the SDK
+PRE_SESSION
+SESSION_ID
+USER SESSION REPORT >>>
+sessionSuccessCallback
+FaceScanSession
+FT_EVENT_ENROLL_SESSION_SUCCESS
+FT_EVENT_VERIFY_SESSION_FAIL
+, sessionStarts=
+release() called on a session that's already fully released.
+DefaultDrmSessionMgr
+Launching failed session tracking listener
+Subsession end
+Session Success msg:%s time:%s adid:%s json:%s
+Session cancelled because device is in landscape mode.
+Session cancelled because user pressed the Get Ready screen subtext message.
+FACETEC_SESSION_ACTIVITY_ON_PAUSE
+FT_EVENT_PHOENIX_SESSION_FAIL
+Couldn't start session with status: 
+getSessionName(): session not prepared. onEvent() must be called first.
+CustomTabsSession is required for launching a TWA
+org.infobip.mobile.messaging.USER_SESSIONS_SENT
+endFirstSessionDelay
+INTER_FACETEC_SESSION
+log-session-id
+org.infobip.mobile.messaging.infobip.SESSION_BOUNDS
+, frontAuditTrailVerificationCheckSucceeded=
+Session Callback parameters are not set
+Session failed because of an unexpected camera error.
+READY_TO_START_FACESCAN_SESSION
+USER_SESSIONS_SENT
+Launching success session tracking listener
+Launching SessionResponse tasks
+Started subsession %d of session %d
+Session cancelled because guidance images were not provided.
+FT_EVENT_VERIFY_SESSION_CANCEL
+latestSessionResult is null unexpectedly. Check Activity State Info to see if session has finished
+INTRA_FACETEC_SESSION_LOOP_DETECTION_LEVEL
+sessionId
+CameraCaptureSession onClosed
+DefaultDrmSession
+session_count
+replayCheckSucceeded
+DefaultDrmSessionManager accessed on the wrong thread.
+SESSION_EXPIRED
+ACTIVE_SESSION_START_TIME_MILLIS
+USER SESSION REPORT ERROR <<<
+Depersonalization is in progress, will report user session later
+closeCaptureSession
+Audit trail images will not be returned
+SESSION_CAMERA_CLEANUP_CALLED
+setUseSessionTickets
+UserSessionEventBody(systemData=
+refreshPreviewCaptureSession: captureSession not yet initialized, skipping preview capture session refresh.
+frontAuditTrailVerificationCheckSucceeded
+DefaultDrmSession accessed on the wrong thread.
+Error detected in onResume(). Ending the session.
+Session Partner
+subsessionCount
+subsessionIntervalInMilliseconds
+FT_EVENT_VERIFY_SESSION_START
+FT_EVENT_AUTH_SESSION_CANCEL
+FT_EVENT_FACESCAN_SESSION_SUCCESS
+SESSION_TOKEN
+INTRA_SESSION
+auditTrailImage
+lowQualityAuditTrailImage
+DRM session error
+sessionFailureCallback
+Session is first flush
+Postponing session sync until app code is available
+SESSION_COMPLETED_SUCCESSFULLY
+Failed to configure camera session.
+[unlockAutoFocus] captureSession null, returning
+sessionTokenCheckSucceeded
+com.google.android.gms.common.internal.ClientSettings.sessionId
+Subsession start
+session
+Session is waiting to finish
+PRE_SESSION_PHASE_1_TIMEOUT
+SessionWrapper
+org.infobip.mobile.messaging.infobip.LAST_REPORTED_ACTIVE_SESSION_START_TIME_MILLIS
+Session Failure msg:%s time:%s adid:%s retry:%b json:%s
+Session cancelled because initialization has not been completed yet.
+PRE_SESSION_PHASE_2_START
+event_session_name
+#EXT-X-SESSION-KEY
+Session Partner parameters are not set
+FACESCAN_SESSION_STARTED
+isSessionOnly
+SESSION_COUNT
+FT_EVENT_AUTH_SESSION_START
+FT_EVENT_AUTH_SESSION_SUCCESS
+INTRA_SESSION_LOOP_DETECTION_LEVEL
+SESSION_UNSUCCESSFUL
+SESSION_RESULT_UNEXPECTED_NULL
+sslSocketSession
+LAST_REPORTED_ACTIVE_SESSION_START_TIME_MILLIS
+An image of height 640 will be returned for the audit trail
+Session cancelled because a network connection is required in non-production apps.
+NATIVE_AUDIT_TRAIL_METHOD_RETURNS_NULL
+FT_EVENT_MID_ENROLL_SESSION_GLASSES_SUCCESS
+Session Finished
+INTRA_FACETEC_SESSION
+isFirstEvent(): session not prepared. onEvent() must be called first.
+audio-session-id
+Failed to generate SessionToken
+/session
+Session cancelled because device is in reverse portrait mode.
+USER SESSION REPORT DONE <<<
+CameraCaptureSession onConfigureFailed
+ff_first_session_delay
+The Session was not performed successfully and a FaceScan was not generated.
+Session cancelled because encryption key invalid.
+FT_EVENT_VERIFY_SESSION_SUCCESS
+ CANNOT called when a FaceTecSession is already in progress.                                                  *
+first_session_event
+com.google.android.gms.signin.internal.logSessionId
+SESSION
+Session token is missing or expired
+setAuditTrailType
+PRE_SESSION_STARTED
+SESSION_TIMEOUT
+DefaultDrmSessionManager accessed before setPlayer(), possibly on the wrong thread.
+sessionCount
+sessionLength
+facetec.serverSessionToken
+Session failed because of an unhandled internal error.
+Registration not available yet, will report user session later
+RetryTimeoutPresession
+FT_EVENT_ENROLL_SESSION_START
+FT_EVENT_ENROLL_SESSION_CANCEL
+FaceTecSessionActivity must be launched with the constructor FaceTecSDK.createAndLaunchSession(...).
+, backAuditTrailVerificationCheckSucceeded=
+Attempting to open a session using a dummy ExoMediaDrm.
+isFirstSessionDelayEnabled
+PRE_SESSION_START_ERROR
+FT_EVENT_FACESCAN_SESSION_FAIL
+SESSION_CONTEXT_SWITCH
+getNewSession() session is flush!
+Failed to update the DRM session, releasing the codec instead.
+Finished tracking session
+phoenixHandler is null unexpectedly. Check Activity State Info to see if session has finished
+PRE_SESSION_PHASE_2_TIMEOUT
+ACTIVE_SESSION_END_TIME_MILLIS
+SESSION_BOUNDS
+subsession_count
+Session cancelled due to timeout.
+Drm session requires secure decoder for 
+org.infobip.mobile.messaging.infobip.ACTIVE_SESSION_START_TIME_MILLIS
+/session-token
+Time span since last activity too short for a new subsession
+session_length
+User cancelled before completing session.
+backAuditTrailVerificationCheckSucceeded
+, replayCheckSucceeded=
+" action to be executed after first session delay ends
+* Your App Code is creating a new FaceTecSession in the Initialization Completion Callback.                                       *
+clearSessionCache
+Session reference count less than zero: 
+The full resolution image will be returned for the audit trail
+facetecsdk.signup.sessionResult
+FULL_SESSION_START
+FACETEC_SESSION_ACTIVITY_ON_RESUME
+FT_EVENT_ENROLL_SESSION_FAIL
+phoenixHandler is null inside onIDScanResultNextStep(). Session is finished: 
+CameraCaptureSession onConfigured
+App session will be terminated due to insecure device settings. Please contact support.
+App session will be terminated,
+
+## DECISION_ROOT_JSON_KEYS
+, sessionTokenCheckSucceeded=
+faceScanSecurityChecks
+, frontAuditTrailVerificationCheckSucceeded=
+replayCheckSucceeded
+frontAuditTrailVerificationCheckSucceeded
+sessionTokenCheckSucceeded
+, backAuditTrailVerificationCheckSucceeded=
+faceScanLivenessCheckSucceeded
+backAuditTrailVerificationCheckSucceeded
+, replayCheckSucceeded=
+
+## FACETEC_ENUMS
+FACETEC_SESSION_ACTIVITY_ON_WINDOW_FOCUS_CHANGED
+FACETEC_SESSION_ACTIVITY_ON_PAUSE
+FACETEC_SDK_ACTIVITY_CONTEXT_SWITCH_TRIGGERED
+FACETEC_POWERED_BY
+FACETEC_ZOOM
+FACETEC_SESSION_ACTIVITY_ON_RESUME
+
+## FACE_ENUMS
+FACE_CAPTURE_ZOOMED_MOVE_CLOSER_TAPPING
+FACE_SCAN_UNZOOMED
+FACE_CAPTURE_FRAME_YOUR_FACE_DELAYED
+FACE_CAPTURE_UNZOOMED_FRAME_YOUR_FACE_TAPPING
+FACE_CAPTURE_MOVE_CLOSER_AUTOMATIC
+FACE_SCAN_ZOOMED
+FACE_CAPTURE_ZOOMED_PLEASE_FRAME_YOUR_FACE_TAPPING
+FACE_CAPTURE_MOVE_CLOSER_DELAYED
+
+## LIVENESS_ENUMS
+LIVENESS_ID_FACE_MATCH
+LIVENESS_FAILED_ERROR
+
+## LIVENESS_ERRORS_STATUS
+LIVENESS_ID_FACE_MATCH
+livenessResult is null
+LIVENESS
+Session cancelled because the device is incompatible with the SDK
+LIVENESS_FAILED_ERROR
+FaceTec SDK is in a lockout state.
+USER_CANCELLED
+LivenessCheck
+Liveness 
+res/layout/activity_labiba_liveness.xml
+/liveness-3d
+USER_CANCELLED_VIA_HARDWARE_BUTTON
+https://api.facetec.com/api/v3.1/biometrics/liveness-3d
+The operation was canceled because ERROR_LOCKOUT occurred too many times. Biometric authentication is disabled until the user unlocks with strong authentication (PIN/Pattern/Password)
+Duplication check process failed
+Play Store missing or incompatible. Version 8.3.73 or later required.
+Process failed
+The device is incompatible with the SDK.
+This should never happen, if this method was called it means we're trying to reach into WebView APK code on an incompatible device. This most likely means the current method is being called too early, or is being called on start-up rather than lazily
+LabibaLiveness
+RESULT_SCREEN_SHOWN
+ma.s2m.egate.customer/liveness
+https://liveness-sw.iraqegate.iq
+USER_CANCELLED_VIA_CLICKABLE_READY_SCREEN_SUBTEXT
+faceScanLivenessCheckSucceeded
+IncompatibleDoc
+Liveness process failed
+res/drawable/ic_liveness_close.xml
+
+## QUALITY_GATES_UI
+ZOOM_FAR
+GET_READY_FRAME_YOUR_FACE_TAPPING
+FACE_CAPTURE_ZOOMED_MOVE_CLOSER_TAPPING
+zoomIn
+setZoomLevel
+MOVE_CLOSER
+map#isZoomControlsEnabled
+Exception in reset zoomValue
+RuntimeException in reset zoomValue
+Zoom not supported,data is null
+ZOOM_LEVEL
+GET_READY_IM_READY_SHOWN_AND_READY
+SMALL_FOR_OVERZOOMED
+zoom_your_zoom_image_override
+RETRY_GET_READY
+Zoom not supported
+zoomOut
+ZOOM_ERROR
+Ideal Pose
+FACE_SCAN_UNZOOMED
+handleZoom: RuntimeException
+CameraZoomManager::setCameraZoomIndex failed: 
+GET_READY_IM_READY_PRESSED
+map#isZoomGesturesEnabled
+BAD_POSE
+FACE_CAPTURE_FRAME_YOUR_FACE_DELAYED
+Zoom not supported,Exception happen
+No Glare or Extreme Lighting
+INITIAL_FACE_SCAN_GET_READY
+FACE_CAPTURE_UNZOOMED_FRAME_YOUR_FACE_TAPPING
+textZoom
+Zoom level out of bounds (zoom level should be between %f and %f).
+setZoomLevel is called without specifying a zoom level.
+.setDisplayZoomControls
+res/drawable-nodpi-v4/facetec_internal_zoom_watermark.webp
+FRAME_YOUR_FACE
+.setSupportZoom
+setZoomLevelFailed
+FACETEC_ZOOM
+zoom
+YOUR_ZOOM_IMAGE_OVERRIDE
+map#getZoomLevel
+overzoomedDocument
+FACE_CAPTURE_MOVE_CLOSER_AUTOMATIC
+Zoom not supported,RuntimeException happen
+ZOOM_CLOSE
+minMaxZoomPreference
+.setTextZoom
+zoom.sdk.settings
+FACE_SCAN_ZOOMED
+zoomBy
+zoomGesturesEnabled
+.setBuiltInZoomControls
+FACE_CAPTURE_ZOOMED_PLEASE_FRAME_YOUR_FACE_TAPPING
+need to zoom
+com.facetec.zoomlogin
+FACE_CAPTURE_MOVE_CLOSER_DELAYED
+initCameraParameters::setDefaultZoom not support zoom
+onZoomScaleChanged
+getMaxZoomLevel
+GET_READY_PRESS_BUTTON_DELAYED
+displayZoomControls
+getZoomScale
+map#getMinMaxZoomLevels
+countDownLatch: can't get tile: x = %d, y= %d, zoom = %d
+GET_READY_FRAME_YOUR_FACE_AUTOMATIC
+handleZoom  zoom not change
+Could not set zoom level.
+MotionEvent.ACTION_MOVE no handleZoom
+newLatLngZoom
+zoom not supported
+builtInZoomControls
+supportZoom
+DigitalZoomRatio
+GET_READY_IM_READY_PRESSED_RETRY
+GET_READY_PRESS_BUTTON_TAPPING
+zoomTo
+zoomControlsEnabled
+getMinZoomLevel
+GET_READY_IM_READY_SHOWN_AND_READY_RETRY
+ScanCode need zoom
+zoomFactor
+
+## SENSOR_MOTION_POSE
+Exception raised while attempting to parse check enrollment JSON result.
+verticalScrollbarThumbColor
+Internal Error, the minimum apk version of this BaseGmsClient is too low to support dynamic lookup. Start service action: 
+Flutter view is null. This means the platform views controller doesn't have an attached view, view id: 
+Invalid motion easing type: 
+Attempted to notify ActivityAware plugins of onRequestPermissionsResult, but no Activity was attached.
+TileProviderController
+res/anim/m3_motion_fade_exit.xml
+res/animator/design_fab_hide_motion_spec.xml
+res/drawable-nodpi-v4/facetec_scrollbar_vertical_thumb.xml
+res/interpolator/m3_sys_motion_easing_emphasized_accelerate.xml
+PreEnroll
+Super_SlowMotion_Deflickering_On
+SCROLL_LEFT
+assets/flutter_assets/assets/icons/scrollIcons/toCareem.png
+res/animator/m3_extended_fab_hide_motion_spec.xml
+ENROLL
+FT_EVENT_ENROLL_SESSION_SUCCESS
+onScrollChanged
+verticalScrollbarTrackColor
+Camera:MotionPhotoPresentationTimestampUs
+Super_SlowMotion_BGM
+This overlay was disposed already. Please use a new one via ViewGroupUtils.getOverlay()
+Attempted to notify ActivityAware plugins of onNewIntent, but no Activity was attached.
+scrollBy
+.getScrollPosition
+res/interpolator/m3_sys_motion_easing_emphasized.xml
+proposedCredential
+Motion photo metadata: photoStartPosition=
+platformViewsController must be set before attempting to begin the frame
+.dispose
+org.meowcat.edxposed.manager
+assets/flutter_assets/assets/icons/scrollIcons/e-Topup.png
+res/animator/mtrl_extended_fab_show_motion_spec.xml
+res/animator/mtrl_fab_hide_motion_spec.xml
+Ideal Pose
+com.pichillilorenzo/flutter_inappwebview_android_serviceworkercontroller
+horizontalScrollbarTrackColor
+GCamera:MotionPhoto
+Super_SlowMotion_Edit_Data
+Android API version is too low. Minimum supported version is 21 (Lollipop).
+assets/flutter_assets/assets/icons/promotions.png
+Please set the base url first in order to use 'isUserEnrolled' method
+Scroll Down
+RequestController
+urn:tva:metadata:cs:AudioPurposeCS:2007
+ mMinimumSamplingPeriodMs=
+platformViewsController must be set before attempting to end the frame
+No biometrics enrolled on this device.
+SCROLL_RIGHT
+BAD_POSE
+assets/flutter_assets/assets/icons/scrollIcons/e-VoucherGiftCard.png
+assets/flutter_assets/assets/images/specialPromotionExpantion.png
+The User with the supplied ID is already enrolled
+MotionSpec
+CameraMotionRenderer
+.scrollTo
+assets/flutter_assets/assets/icons/promotionLight.png
+Setting a method call handler before the last was disposed.
+getScrollX
+minimumFontSize
+overScrollMode
+MotionPhotoXmpParser
+camera motion
+map#isScrollGesturesEnabled
+scrollGesturesEnabled
+res/animator/mtrl_extended_fab_change_size_collapse_motion_spec.xml
+res/interpolator/m3_sys_motion_easing_standard_accelerate.xml
+PlaybackParameters(speed=%.2f, pitch=%.2f)
+platformViewsController must be set before attempting to position an overlay surface
+Exception raised while attempting check enrollment HTTPS call.
+GRS_RequestController-Task
+horizontalScrollbarThumbColor
+Camera:MotionPhoto
+Super_SlowMotion_Data
+Texture registry is null. This means that platform views controller was detached, view id: 
+SCROLL_UP
+Already resumed, but proposed with update 
+res/interpolator/m3_sys_motion_easing_emphasized_decelerate.xml
+res/interpolator/m3_sys_motion_easing_standard.xml
+adjust_purpose
+canScrollHorizontally
+Rock & Roll
+Attempted to notify ActivityAware plugins of onUserLeaveHint, but no Activity was attached.
+No Biometrics enrolled on this device.
+.getScrollY
+res/drawable-nodpi-v4/facetec_ideal_pose_image.webp
+res/interpolator/m3_sys_motion_easing_linear.xml
+xposed
+, scannedIDPhotoFaceFoundWithMinimumQuality=
+LOG_SUCCESSFUL_ENROLLMENT_ERROR
+dispose
+com.google.android.launcher.layouts.genymotion
+res/anim/m3_motion_fade_enter.xml
+res/animator/mtrl_extended_fab_hide_motion_spec.xml
+scannedIDPhotoFaceFoundWithMinimumQuality
+Enrollment Check call Failed
+scrollbarFadingEnabled
+GCamera:MotionPhotoPresentationTimestampUs
+.getScrollX
+ is less than minimum 
+USER_NOT_ENROLLED
+USER_3D_ENROLLMENT_FAILED
+ENROLL_IMAGE_FACE_MATCH
+verticalScrollbarPosition
+NotEnrolled
+simulator
+res/animator/m3_extended_fab_show_motion_spec.xml
+disableVerticalScroll
+SlowMotion_Data
+allScroll
+assets/flutter_assets/assets/icons/scrollIcons/betweenMyCards.png
+assets/flutter_assets/assets/images/specialPromotionL.png
+/enrollment-3d/
+canScrollVertically
+getScrollY
+Primus
+SlowMotion: segments=
+android.widget.HorizontalScrollView
+assets/flutter_assets/assets/icons/scrollIcons/payBills.png
+assets/flutter_assets/assets/images/specialPromotion.png
+res/animator/m3_extended_fab_change_size_expand_motion_spec.xml
+FT_EVENT_MID_ENROLL_SESSION_GLASSES_SUCCESS
+verticalScrollBarEnabled
+scrollBarFadeDuration
+precomposed
+, proposedCredential=
+Motion easing control point value must be between 0 and 1; instead got: 
+Controller was disposed before GoogleMap was ready.
+Cannot coerce value to an empty range: maximum 
+assets/flutter_assets/assets/icons/scrollIcons/merchantPayment.png
+/enrollment-3d
+Check enrollment -> 
+scrollBarStyle
+MotionPhoto
+HAS_IMPLICIT_SCROLLING
+scrollX
+TRACING_CONTROLLER_BASIC_USAGE
+android.widget.ScrollView
+res/animator/design_fab_show_motion_spec.xml
+res/drawable-nodpi-v4/facetec_scroll_down_indicator.xml
+scrollTo
+onOverScrolled
+papayawhip
+Platform view cannot be composed without a surface.
+assets/flutter_assets/assets/icons/promotionDark.png
+res/animator/mtrl_extended_fab_change_size_expand_motion_spec.xml
+PlatformViewsController
+A PlatformViewsController can only be attached to a single output target.
+attach was called while the PlatformViewsController was already attached.
+assets/flutter_assets/assets/icons/scrollIcons/addActivateNewCard.png
+FT_EVENT_ENROLL_SESSION_START
+FT_EVENT_ENROLL_SESSION_CANCEL
+scrollY
+minimumLogicalFontSize
+scrollBarDefaultDelayBeforeFade
+application/x-camera-motion
+.scrollBy
+Genymotion
+assets/flutter_assets/assets/icons/scrollIcons/createVirtualCard.png
+res/animator/mtrl_fab_show_motion_spec.xml
+res/drawable-nodpi-v4/facetec_scrollbar_vertical_track.xml
+The User with the supplied ID is not enrolled
+horizontalScrollBarEnabled
+disableHorizontalScroll
+SCROLL_DOWN
+USER_ALREADY_ENROLLED
+MotionEvent.ACTION_MOVE no handleZoom
+minimumUpdatePeriod
+Motion easing theme attribute must have 4 control points if using bezier curve format; instead got: 
+Attempted to notify ActivityAware plugins of onSaveInstanceState, but no Activity was attached.
+platformViewsController must be set before attempting to position a platform view
+Attempted to notify ActivityAware plugins of onRestoreInstanceState, but no Activity was attached.
+Attempted to notify ActivityAware plugins of onActivityResult, but no Activity was attached.
+GoogleMapController
+Maximum allowed attachment size exceeded
+res/interpolator/m3_sys_motion_easing_standard_decelerate.xml
+platformViewsController must be set before attempting to destroy an overlay surface
+Checking a user's enrollment using the reference id failed
+Enrollment of the user to 3d-db failed
+Motion easing theme attribute must be an @interpolator resource for ?attr/motionEasing*Interpolator attributes or a string for ?attr/motionEasing* attributes.
+REDUCE_MOTION
+de.robv.android.xposed.installer
+Setting a event call handler before the last was disposed.
+, isUserAlreadyEnrolled=
+FT_EVENT_ENROLL_SESSION_FAIL
+ENROLLMENT_CHECK_ERROR
+assets/flutter_assets/assets/icons/scrollIcons/to-othercards.png
+res/animator/m3_extended_fab_change_size_collapse_motion_spec.xml
+
+## SERVER_ENDPOINTS_DOMAINS
+/FaceTecScan
+/match-3d-3d
+/liveness-3d
+https://api.facetec.com/api/v3.1/biometrics/liveness-3d
+/enrollment-3d/
+/enrollment-3d
+/match-3d-2d-profile-pic
+/match-3d-2d-idscan
+
