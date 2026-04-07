@@ -26,11 +26,19 @@ def dedupe_preserve_order(items: Iterable[str]) -> list[str]:
     d = OrderedDict.fromkeys(items)
     return list(d.keys())
 
+def scan_file_ascii_strings(path: str, minlen: int = 4) -> list[str]:
+    with open(path, "rb") as f:
+        data = f.read()
+    strings = extract_ascii_strings(data, minlen)
+    return dedupe_preserve_order(strings)
+
 
 def main() -> None:
     import sys
 
-    path = sys.argv[1] if len(sys.argv) > 1 else "libe598.so"
+    args = sys.argv[1:]
+    path = args[0] if args else "libe598.so"
+    full_scan = "--full" in args[1:]
     with open(path, "rb") as f:
         elf = ELFFile(f)
 
@@ -73,6 +81,11 @@ def main() -> None:
                 continue
             strings.extend(extract_ascii_strings(sec.data(), 4))
         strings = dedupe_preserve_order(strings)
+        if full_scan:
+            full_strings = scan_file_ascii_strings(path, 4)
+            # Merge (keep section strings first for readability)
+            strings = dedupe_preserve_order([*strings, *full_strings])
+            print(f"Full-file scan enabled. Total unique ASCII strings: {len(strings)}")
 
         keywords = [
             "FaceTec",
@@ -126,6 +139,14 @@ def main() -> None:
             "code",
             "result",
             "status",
+            "faceScanSecurityChecks",
+            "replayCheckSucceeded",
+            "sessionTokenCheckSucceeded",
+            "auditTrailVerificationCheckSucceeded",
+            "faceScanLivenessCheckSucceeded",
+            "No Glare",
+            "Extreme Lighting",
+            "Ideal Pose",
             "fail",
             "pass",
         ]
